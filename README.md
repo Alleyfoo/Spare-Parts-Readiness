@@ -2,6 +2,8 @@
 
 **Which machines could we repair today?**
 
+**Live demo:** [spare-parts-readiness-ggtqm3vbz3lszbo9bjgvkc.streamlit.app](https://spare-parts-readiness-ggtqm3vbz3lszbo9bjgvkc.streamlit.app/)
+
 A plant layout where every machine is coloured by whether its spare parts are
 covered. Hover a machine and a floating box lists its parts, worst first, with
 stock in the Finnish and Swedish warehouses.
