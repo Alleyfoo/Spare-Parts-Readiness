@@ -76,7 +76,7 @@ def demo_parts() -> pd.DataFrame:
         ("SP-1202", "Tail pulley, 400 mm", "Pulley", False, 56, 1, 0),
         ("SP-1203", "Drive pulley, lagged, 630 mm", "Pulley", False, 84, 0, 1),
         ("SP-1301", "Spherical roller bearing 22216", "Bearing", True, 7, 6, 4),
-        ("SP-1302", "Plummer block housing SNL 516", "Bearing", False, 10, 2, 1),
+        ("SP-1302", "Plummer block housing, size 516", "Bearing", False, 10, 2, 1),
         ("SP-1303", "Spherical roller bearing 22220", "Bearing", True, 7, 0, 0),
         ("SP-1401", "Primary belt scraper blade, 800 mm", "Scraper", True, 10, 3, 0),
         ("SP-1402", "Primary belt scraper blade, 1000 mm", "Scraper", True, 10, 0, 2),

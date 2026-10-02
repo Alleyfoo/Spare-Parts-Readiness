@@ -187,6 +187,8 @@ def main() -> None:
     data, source = load_data()
     st.sidebar.caption(f"Data: {source}")
     st.sidebar.caption("All demo data is synthetic: a generic plant with generic conveyor parts.")
+    st.sidebar.caption("Public demo: please don't upload confidential data. Uploads are "
+                       "read in memory for your session only and never stored.")
 
     bom = apply_approved(data["bom"], st.session_state.get("proposals", []))
     lines = part_lines(data["machines"], data["parts"], bom)
